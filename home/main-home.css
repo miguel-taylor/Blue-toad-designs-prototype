@@ -1,3 +1,83 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	
+}
+.body-container{
+	width: 100%;
+	height: 2304px;
+	
+	margin: 0 auto;
+	background-image: url("../quino-al-RkDAbNitt64-unsplash.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:0.5fr 0.5fr 2fr 1.4fr 2fr 0.7fr .6fr 1fr 0.7fr 0.3fr .3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Nav Nav Nav Nav Nav"
+    ". . . . ."
+    ". Title Title Title ."
+    ". . . . ."
+    ". . . . ."
+    ". Featured Featured Featured ."
+    ". . . . ."
+    ". Images Images Images ."
+    ". . . . ."
+    "Footer Footer Footer Footer Footer"
+    ". . . . .";
+}
+.Title { 
+	grid-area: Title;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 125px;
+	color: #FFFFFF;
+	text-shadow: 5px 5px black;
+}
+.Nav { 
+	grid-area: Nav; 
+}
+.Featured { 
+	grid-area: Featured; 
+	text-align: center;
+	font-size: 50px;
+}
+.Images { 
+	grid-area: Images;
+	background-color: darkslategray;
+}
+.Footer { 
+	grid-area: Footer; 
+	background-color: lightslategrey;
+	text-align:center;
+	padding-top:25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+	li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+text-shadow: 2px 2px black;
+	font-size: 25px;
+}
+a { 
+color: white;}
+
+	
+	
+	
