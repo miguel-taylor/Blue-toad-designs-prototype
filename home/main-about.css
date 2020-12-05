@@ -23,7 +23,8 @@
 	grid-area: About-Me;
 	text-align: center;
 	color:white;
-	font-size: 50px
+	font-size: 50px;
+	text-shadow: 2px 2px black;
 
 
 }
@@ -31,11 +32,13 @@
 color: white;
 padding-top: 200px;
 font-size: 50px;
+	text-shadow: 2px 2px black;
 }
 .Footer { grid-area: Footer;
 background-color: lightslategrey;
 text-align: center;
-padding-top:10px; }
+padding-top:10px;
+}
 body { background-color: aqua}
 ul {
   list-style-type: none;
@@ -55,4 +58,5 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 font-size: 25px;
+	text-shadow: 2px 2px black;
 }

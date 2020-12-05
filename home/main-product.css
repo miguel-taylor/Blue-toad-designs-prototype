@@ -77,6 +77,8 @@
 .Footer { 
 	grid-area: Footer;
 	background-color: lightslategrey;
+	text-align: center;
+	padding: 25px;
 
 }
 body { background-color: aqua}
@@ -98,4 +100,5 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 font-size: 25px;
+	text-shadow: 2px 2px black;
 }
