@@ -9,7 +9,7 @@ body{
 	height: 2304px;
 	
 	margin: 0 auto;
-	background-image: url("../quino-al-RkDAbNitt64-unsplash.jpg");
+	background-image:url("quino-al-RkDAbNitt64-unsplash.jpg") ;
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: grid;
@@ -49,6 +49,10 @@ body{
 .Images { 
 	grid-area: Images;
 	background-color: darkslategray;
+	text-align: center;
+	color: red;
+	padding-top: 50px;
+	font-size: 120px;
 }
 .Footer { 
 	grid-area: Footer; 
